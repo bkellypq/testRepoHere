@@ -1,0 +1,1 @@
+SELECT min(create_date) FROM documents.documents_audit where processed = 0;
